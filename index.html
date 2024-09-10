@@ -1,28 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App</title>
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <div id="container">
-        <main>
-            <h1>Weather App</h1>
-            <nav>
-                <input type="text" id="input">
-                <img id="submit" src="loupe.png" alt=""><img/>
-            </nav>
-            <p id="output"></p>
-        </main>
+    <div class="container">
+        <h1>Weather App</h1>
+        <div class="input-group">
+            <input type="text" id="input" placeholder="Enter a city" />
+            <button id="submit">Get Weather</button>
+        </div>
+        <div id="output"></div>
     </div>
-
 
     <script src="script.js"></script>
 </body>
-
 </html>
